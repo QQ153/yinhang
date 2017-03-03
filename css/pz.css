@@ -1,0 +1,109 @@
+html,body{
+	height: 100%;
+}
+.color-h{
+	color: #525252;
+}
+.header{
+	border: 1px solid rgb(129, 129, 129);
+	padding: 5%;
+	height: 1rem;
+	text-align: center;
+}
+.header .zuo{
+	float: left;
+}
+.header p{
+	color: #282828;
+	font-weight: bold;
+	font-size: .6rem;
+	display: inline-block;
+}
+
+.header .you{
+	float: right;
+	font-size: .375rem;
+	line-height: 1rem;
+	color: #575757;
+}
+
+.main{
+	height: 80%;
+	background: rgb(236, 236, 236);
+	padding: 5% 5% 0 5%;
+	padding-bottom: 1rem;
+}
+.main .mx{
+	background: #fff;
+	margin-left: -6%;
+	margin-right: -5%;
+	padding: 0 10%;
+	margin-bottom: 10%;
+}
+
+.main .mx li{
+	border-bottom: 1px solid #c8c8c8;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	font-size: .375rem;	
+}
+
+.main .mx li:last-child{
+	border: none;
+}
+
+.wb{
+	padding-right: 
+}
+
+.ip-right{
+	float: right;
+	line-height: 1.8rem;
+}
+
+.main .mx li select{
+	width: 55%;
+	overflow: hidden;
+	float: right;
+	line-height: 1.8rem;
+	border: none;
+	color: #000;
+	font-size: .375rem;
+	margin-right: 9%;
+}
+
+.ip{
+	width:60%;
+	border: none;
+	padding: 0 5%;
+}
+
+.xl{
+	display: inline-block;
+	float: right;
+	width: 0.3rem;
+	height: 1.8rem;
+	background: url('../img/xl.png') 0rem 0.8rem no-repeat;
+}
+
+.btn{
+	background: rgb(235, 235, 235);
+}
+
+.btn p{
+	display: block;
+	/* margin:5% 5%; */
+	height: 1.3rem;
+	line-height: 1.3rem;
+	text-align: center;
+	background: red;
+	color: #fff;
+	font-size: .4375rem;
+}
+
+@media screen and (max-width: 768px){
+	.main .mx li select{
+		width: 30%;
+		margin-right: 30%;
+	}
+}

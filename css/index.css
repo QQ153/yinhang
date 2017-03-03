@@ -1,0 +1,79 @@
+html,body{
+	height: 100%;
+}
+.header{
+	border: 1px solid rgb(129, 129, 129);
+	padding: 5%;
+	height: 1rem;
+	text-align: center;
+}
+.header .zuo{
+	float: left;
+}
+.header p{
+	color: #282828;
+	font-weight: bold;
+	font-size: .6rem;
+	display: inline-block;
+}
+
+.main{
+	height: 80%;
+	background: rgb(236, 236, 236);
+	padding: 5% 5% 0 5%;
+	padding-bottom: 1rem;
+}
+
+.main .bt{
+	padding-bottom: 5%;
+	font-size: .375rem;
+	color: rgb(81, 81, 81);
+}
+
+.txt{
+	background: #fff;
+	padding: 5%;
+	line-height: 0.85rem;
+	font-size: .375rem;
+}
+
+.color-red{
+	color: red;
+}
+
+.color-h{
+	color: #525252;
+}
+
+.show{
+	background: #fff;
+	margin: 5% 0;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	padding: 0 10%;
+	margin-left: -6%;
+	margin-right: -5%;
+	font-size: .375rem;
+}
+
+.ip{
+	border: none;
+	padding: 0 5%;
+}
+
+.btn{
+	/* height: 1.3rem; */
+	background: rgb(235, 235, 235);
+}
+
+.btn p{
+	display: block;
+	/* margin:5% 5%; */
+	height: 1.3rem;
+	line-height: 1.3rem;
+	text-align: center;
+	background: red;
+	color: #fff;
+	font-size: .4375rem;
+}
+
