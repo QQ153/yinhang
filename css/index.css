@@ -46,6 +46,7 @@ html,body{
 }
 
 .show{
+	position: relative;
 	background: #fff;
 	margin: 5% 0;
 	height: 1.7rem;
@@ -54,6 +55,13 @@ html,body{
 	margin-left: -6%;
 	margin-right: -5%;
 	font-size: .375rem;
+}
+
+.del{
+	width: .75rem;
+	position: absolute;
+	right: .625rem;
+	top: .5rem;
 }
 
 .ip{
