@@ -14,6 +14,7 @@ var reg = /^\s+|\s+$/g;
 
 del.onclick = function(){
 	num.value = "";
+	num = "";
 }
 
 tx.onclick = function(){
@@ -24,6 +25,7 @@ tx.onclick = function(){
 			window.location.href="pz.html";
 		}else{
 			alert("余额不足");
+			num = "";
 		}
 	}
 	
