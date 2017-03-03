@@ -107,3 +107,10 @@ html,body{
 		margin-right: 30%;
 	}
 }
+
+@media screen and (max-width: 375px){
+	.main .mx li select{
+		width: 50%;
+		margin-right: 3%;
+	}
+}
