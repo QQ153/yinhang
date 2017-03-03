@@ -12,6 +12,7 @@ html,body{
 }
 .header .zuo{
 	float: left;
+	font-size: .625rem;
 }
 .header p{
 	color: #282828;
