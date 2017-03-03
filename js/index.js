@@ -19,6 +19,7 @@ del.onclick = function(){
 tx.onclick = function(){
 	var yez = parseFloat(ye);
 	var tjnum = parseFloat(num.value);
+	console.log(tjnum);
 	if(tjnum){
 		if(tjnum<=yez){
 			window.location.href="pz.html";
@@ -26,6 +27,9 @@ tx.onclick = function(){
 			alert("余额不足");
 			num.value = "";
 		}
+	}else{
+		alert("请输入正确的数字");
+		num.value = "";
 	}
 	
 }

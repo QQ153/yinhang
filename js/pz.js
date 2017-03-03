@@ -5,3 +5,7 @@ var tj = document.getElementById("tj");
 ht.onclick = function(){
 	window.location.href="index.html";
 }
+
+tj.onclick = function(){
+	
+}
