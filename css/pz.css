@@ -64,10 +64,12 @@ html,body{
 	position: relative;
 }
 .main .mx li select{
+	position: absolute;
 	width: 50%;
 	/*overflow: hidden;*/
 	/*display: inline-block;*/
-	float: right;
+	/*float: right;*/
+	right: 10%;
 	line-height: 1.8rem;
 	border: none;
 	color: #000;
