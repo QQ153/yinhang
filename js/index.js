@@ -14,18 +14,17 @@ var reg = /^\s+|\s+$/g;
 
 del.onclick = function(){
 	num.value = "";
-	num = "";
 }
 
 tx.onclick = function(){
-	ye = parseFloat(ye);
-	num = parseFloat(num.value);
-	if(num){
-		if(num<=ye){
+	var yez = parseFloat(ye);
+	var tjnum = parseFloat(num.value);
+	if(tjnum){
+		if(tjnum<=yez){
 			window.location.href="pz.html";
 		}else{
 			alert("余额不足");
-			num = "";
+			num.value = "";
 		}
 	}
 	
