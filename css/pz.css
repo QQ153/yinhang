@@ -63,7 +63,8 @@ html,body{
 
 .main .mx li select{
 	width: 50%;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	display: inline-block;
 	float: right;
 	line-height: 1.8rem;
 	border: none;
